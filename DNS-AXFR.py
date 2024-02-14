@@ -43,9 +43,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="dns-axfr.py", epilog="DNS Zonetransfer Script", usage="dns-axfr.py [options] -d <DOMAIN>", prefix_chars='-', add_help=True)
 
     # Positional Arguments
-    parser.add_argument('-d', action='store', metavar='Domain', type=str, help='Target Domain.\tExample: inlanefreight.htb', required=True)
-    parser.add_argument('-n', action='store', metavar='Nameserver', type=str, help='Nameservers separated by a comma.\tExample: ns1.inlanefreight.htb,ns2.inlanefreight.htb')
-    parser.add_argument('-v', action='version', version='DNS-AXFR - v1.0', help='Prints the version of DNS-AXFR.py')
+    parser.add_argument('-d', action='store', metavar='Domain', type=str, help='Target Domain.\tExample: example.com', required=True)
+    parser.add_argument('-n', action='store', metavar='Nameserver', type=str, help='Nameservers separated by a comma.\tExample: ns1.example.com,ns2.example.com')
+    parser.add_argument('-v', action='version', version='DNS-AXFR - v1.0.1', help='Prints the version of DNS-AXFR.py')
 
     # Assign given arguments
     args = parser.parse_args()

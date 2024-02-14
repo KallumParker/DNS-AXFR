@@ -14,12 +14,26 @@ python3-dnspython
 ### Installing
 ```bash
 $ git clone https://github.com/KallumParker/DNS-AXFR.git
+$ cd DNS-AXFR
 $ chmod +x DNS-AXFR.py
-
 ```
 
 ### Running
 ```bash
-$ cd DNS-AXFR
 $ python3 DNS-AXFR.py
+```
+
+## Usage
+Parameters and examples of use.
+```bash
+$ python3 DNS-AXFR.py [options] -d <DOMAIN>
+```
+
+### Parameters
+```
+-h, --help      Show this help message and exit
+-d  Domain      Target Domain. Example: example.com
+-n  Nameserver  Nameservers seperated by a comma. Example:
+                ns1.example.com,ns2.example.com
+-v              Prints the version of DNS-AXFR.py
 ```
