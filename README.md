@@ -14,11 +14,12 @@ python3-dnspython
 ### Installing
 ```bash
 $ git clone https://github.com/KallumParker/DNS-AXFR.git
-$ cd DNS-AXFR
+$ chmod +x DNS-AXFR.py
+
 ```
 
 ### Running
 ```bash
+$ cd DNS-AXFR
 $ python3 DNS-AXFR.py
-$ chmod +x DNS-AXFR.py
 ```
