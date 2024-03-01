@@ -45,7 +45,7 @@ if __name__ == "__main__":
     # Positional Arguments
     parser.add_argument('-d', action='store', metavar='Domain', type=str, help='Target Domain.\tExample: example.com', required=True)
     parser.add_argument('-n', action='store', metavar='Nameserver', type=str, help='Nameservers separated by a comma.\tExample: ns1.example.com,ns2.example.com')
-    parser.add_argument('-v', action='version', version='DNS-AXFR - v1.0.1', help='Prints the version of DNS-AXFR.py')
+    parser.add_argument('-v', action='version', version='DNS-AXFR - v1.0.1', help='Prints the version of dns-axfr.py')
 
     # Assign given arguments
     args = parser.parse_args()

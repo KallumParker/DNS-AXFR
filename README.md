@@ -13,20 +13,20 @@ python3-dnspython
 
 ### Installing
 ```bash
-$ git clone https://github.com/KallumParker/DNS-AXFR.git
-$ cd DNS-AXFR
-$ chmod +x DNS-AXFR.py
+$ git clone https://github.com/KallumParker/dns-axfr.git
+$ cd dns-axfr
+$ chmod +x dns-axfr.py
 ```
 
 ### Running
 ```bash
-$ python3 DNS-AXFR.py
+$ python3 dns-axfr.py
 ```
 
 ## Usage
 Parameters and examples of use.
 ```bash
-$ python3 DNS-AXFR.py [options] -d <DOMAIN>
+$ python3 dns-axfr.py [options] -d <DOMAIN>
 ```
 
 ### Parameters
